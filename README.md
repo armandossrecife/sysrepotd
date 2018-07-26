@@ -3,6 +3,7 @@
 
 Application to handle Software Repository and Technical Debt to check the health of the system architecture evaluated by the application code repository using baseline indicators of software architecture.
 
+![alt text](https://github.com/armandossrecife/sysrepotd/blob/master/src/main/resources/static/SysRepoTDAdmin.png)
 
 Characteristics
 ---
