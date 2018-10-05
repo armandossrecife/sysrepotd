@@ -59,6 +59,10 @@ $java -jar target/artefactId-version.jar
 For further details click the link below to read full article about spring-boot packaging: 
 https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started-first-application.html#getting-started-first-application-pom
 
+Special Configurations
+---
+For database security, datasource, jpa, thymeleaf and session configuration you have to change values in src/main/resources/sql/security.sql and src/main/resources/application.properties
+
 References
 ---
 
