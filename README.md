@@ -11,7 +11,7 @@ Characteristics
 * Spring Boot;
 * Spring Security for basic login with permissions;
 * Thymeleaf para view;
-* Mysql Bank or others;
+* Mysql Database or others;
 * Basic customer crud;
 * Basic user crud;
 * Basic repository crud
@@ -23,6 +23,41 @@ TODO
 * Search in the listing;
 * Model of Dialog;
 * Template for sending e-mail with template;
+
+
+About Spring-boot packaging
+---
+
+1. Adding Classpath Dependencies
+```
+$mvn dependency:tree
+```
+
+2. Running the Example
+Since you used the spring-boot-starter-parent POM, you have a useful run goal that you can use to start the application
+```
+$mvn spring-boot:run
+```
+3. How to test, execute and package the application?
+You have to put Classpath Dependencies
+```
+$mvn dependency:tree
+```
+3.2. If you want to run the example directly from main path source code
+```
+$mvn spring-boot:run
+```
+3.3. If you want to create .jar package application. 
+The packaget application .jar are archives containing your compiled classes along with all of the jar dependencies that your code needs to run.
+```
+$mvn clean package
+```
+3.4 To run that application, use the java -jar command, as follows:
+```
+$java -jar target/artefactId-version.jar
+```
+For further details click the link below to read full article about spring-boot packaging: 
+https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started-first-application.html#getting-started-first-application-pom
 
 References
 ---
